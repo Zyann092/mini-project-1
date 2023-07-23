@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tektur:wght@800&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(21, 20, 20);
+}
+.nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo-brand {
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+}
+.nav-logo {
+    width: 33px;
+    height: 33px;
+    margin-right: 6px;
+    background-image: url(../images/hoop-tribe-logoo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-brand {
+    font-family: 'Tektur', cursive;
+    font-weight: 600;
+    font-size: 27px;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    padding-right: 100px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0 12px 0 0;
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+.drills {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 130px 0 40px 0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 50px 40px 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+.card-title {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.image-1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/ball-handling.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.image-2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/shooting-drills.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.image-3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/passing-drills.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.image-4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/defensive-drills.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.image-5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/transition-drills.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.image-6 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/footwork-drils.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 80px 50px;
+    border-bottom: 3px solid rgba(255, 166, 0, 0.24);
+}
+.video-card {
+    width: 900px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.training-video {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 80px 0 60px 0;
+    text-align: center;
+}
+.video {
+    width: 854px;
+    height: 480px;
+}
+.coaches {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 110px 0 40px 0;
+    text-align: center;
+}
+.coaches-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 50px 100px 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coaches-card {
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+.coach-name {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.coach-img-1 {
+    width: 300px;
+    height: 370px;
+    background-image: url(../images/coach-carter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.coach-img-2 {
+    width: 300px;
+    height: 370px;
+    background-image: url(../images/coach-stanley.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+.coach-img-3 {
+    width: 300px;
+    height: 370px;
+    background-image: url(../images/coach-phil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 0 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-card {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-title {
+    font-family: 'Tektur', cursive;
+    font-size: 19px;
+    font-weight: 500;
+}
+.footer-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.384);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+.copyright {
+    margin-top: 26px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #000000be;
+}
+
+@media only screen and (max-width: 860px){
+    .logo-brand {
+        padding-left: 100px;
+    }
+    .nav-list {
+        padding-right: 50px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .logo-brand {
+        padding-left: 50px;
+    }
+    .nav-list {
+        padding-right: 25px;
+    }
+}
+@media only screen and (max-width: 549px){
+    .logo-brand {
+        padding-left: 25px;
+    }
+    .nav-list {
+        padding-right: 12px;
+    }
+}
+@media only screen and (max-width: 512px){
+    .logo-brand {
+        padding-left: 12px;
+    }
+    .nav-list {
+        padding-right: 6px;
+    }
+}
+@media only screen and (max-width: 674px){
+    .video{
+        width: 426px;
+        height: 240px;
+    }
+}
+@media only screen and (max-width: 882px){
+    .video{
+        width: 640px;
+        height: 360px;
+    }
+}
+@media only screen and (max-width: 802px){
+    .container{
+        align-items: center;
+        width: 100%;
+    }
+    .coaches-container{
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 797px){
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+}
